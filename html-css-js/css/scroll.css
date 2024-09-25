@@ -1,0 +1,23 @@
+
+.animation {
+    height: 100vh;
+    /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .arrow-container {
+    position: fixed;
+    top: 50%;
+    left: -5rem;
+    transform: translateY(-50%);
+  }
+  
+  .arrow {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .scrollmagic-indicator {
+    display: none !important;
+  }

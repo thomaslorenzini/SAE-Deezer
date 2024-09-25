@@ -17,11 +17,4 @@ a.nav-link:hover {
     color: black; /* Change la couleur des liens au survol */
 }
 
-@font-face {
-    font-family: 'Deezer-Major'; /* Nom personnalisé de la police */
-    src: url('../TTF/Deezer-Major.ttf') format('truetype'); /* Format woff2 */   /* Format woff */
-    font-weight: normal; /* Spécifie le poids de la police */
-    font-style: normal;  /* Style normal (peut être 'italic') */
-}
-
 /* Made By Thomas Lorenzini */

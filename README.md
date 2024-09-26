@@ -1,6 +1,6 @@
 # SAE Deezer
 
-## Sujet    
+## Sujet 
 
 [SAE Deezer](https://thomaslorenzini.github.io/SAE-Deezer/)
 
@@ -9,8 +9,8 @@
 Etudiant 1 (référent du groupe) :  [Andréa](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 2 : [Thomas](mailto:thomas.lorenzini@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
 Etudiant 3 : [Tom](mailto:tom.limon@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 4 : [Noa](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 5 : [Ethan](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 4 : [Noa](mailto:noa.leenknegt@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 5 : [Ethan](mailto:ethan.koperecz@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
 # Présentation du projet
 

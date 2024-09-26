@@ -1,30 +1,17 @@
-# Projet Deezer - Site Web de Présentation
+# SAE Deezer
 
-Bienvenue sur le site web de présentation de Deezer. Ce projet a été réalisé dans le cadre de notre SAE à l'IUT. Le site a pour objectif de présenter les fonctionnalités et les avantages de l'utilisation de Deezer.
+## Sujet    
 
-## Fonctionnalités du Site
+[SAE Deezer](https://thomaslorenzini.github.io/SAE-Deezer/)
 
-- **Présentation de Deezer** : Une introduction à Deezer et ses fonctionnalités principales.
-- **Catalogue de Musique** : Exploration du vaste catalogue de musique disponible sur Deezer.
-- **Playlists Personnalisées** : Création et gestion de playlists personnalisées.
-- **Recommandations** : Suggestions de musique basées sur les préférences de l'utilisateur.
-- **Abonnements** : Informations sur les différents types d'abonnements disponibles.
+## Membres du groupe :
 
-## Répartition des Tâches
+Etudiant 1 (référent du groupe) :  [Andréa](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 2 : [Thomas](mailto:thomas.lorenzini@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
+Etudiant 3 : [Tom](mailto:tom.limon@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 4 : [Noa](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 5 : [Noa](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
-- **Alice Dupont** : Développement de la page d'accueil et intégration des éléments graphiques.
-- **Bob Martin** : Mise en place du système de gestion des playlists et des recommandations.
-- **Charlie Durand** : Développement de la section des abonnements et des informations utilisateur.
-- **Diane Leroy** : Tests et débogage du site, ainsi que l'optimisation des performances.
+# Présentation du projet
 
-## Technologies Utilisées
-
-- **HTML/CSS** : Pour la structure et le style du site.
-- **JavaScript** : Pour les fonctionnalités interactives.
-- **API Deezer** : Pour l'intégration des données musicales.
-
-Merci de visiter notre site et de découvrir tout ce que Deezer a à offrir !
-
-## Contact
-
-Pour toute question ou suggestion, veuillez nous contacter à l'adresse suivante : contact@deezerproject.com
+Le projet consiste à développer un site web qui présente les fonctionnalités et les services offerts par Deezer. Ce site permettra aux utilisateurs de découvrir les différentes options de streaming musical, les abonnements disponibles, ainsi que les playlists et recommandations personnalisées. En plus, le site abordera les aspects économiques et écologiques liés à l'utilisation de Deezer.

@@ -16,8 +16,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    position: relative; /* Change de fixed à relative */
+    width: 100%; /* Assure-toi que le container prend la largeur totale */
 }
+
+
 
 .nav-toggle {
     display: none;
@@ -139,6 +142,10 @@ body {
     font-weight: bold; 
 }
 
+
+.navbar-brand {
+    margin: 20px
+}
 
 .navbar-brand img {
     transition: transform 0.3s ease-in-out;

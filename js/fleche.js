@@ -1,40 +1,33 @@
-// Calcul des positions avec des valeurs fixes en pixels pour x et y
 const flightPath = {
   curviness: 1.25,
   autoRotate: true,
   values: []
 };
 
-// Point de départ (premier point)
-let currentX = 100;  // Point de départ en x (en pixels)
-let currentY = -20;  // Point de départ en y (en pixels)
+let currentX = 100;  
+let currentY = -20;  
 
-// Décalages en pixels à ajouter pour chaque nouvelle étape (x et y en pixels)
 const steps = [
-  { deltaX: 150, deltaY: 30 },    // Étape 2
-  { deltaX: 200, deltaY: 90 },    // Étape 3
-  { deltaX: 250, deltaY: -200 },  // Étape 4
-  { deltaX: -200, deltaY: 50 },   // Étape 5 (on recule en x)
-  { deltaX: 300, deltaY: 150 },   // Étape 6
-  { deltaX: 150, deltaY: 80 },   // Étape 7
-  { deltaX: 120, deltaY: 0 },  // Étape 7
+  { deltaX: 150, deltaY: 30 },   
+  { deltaX: 200, deltaY: 90 },   
+  { deltaX: 250, deltaY: -200 },  
+  { deltaX: -200, deltaY: 50 },   
+  { deltaX: 300, deltaY: 150 },   
+  { deltaX: 150, deltaY: 80 },   
+  { deltaX: 120, deltaY: 0 },  
 ];
 
-// Ajouter le premier point
 flightPath.values.push({ x: currentX, y: currentY });
 
-// Calcul des nouvelles positions basées sur la position actuelle
 steps.forEach(step => {
-  currentX += step.deltaX;  // Ajouter le delta en x (pixels)
-  currentY += step.deltaY;  // Ajouter le delta en y (pixels)
+  currentX += step.deltaX;  
+  currentY += step.deltaY;  
 
-  flightPath.values.push({ x: currentX, y: currentY });  // Ajouter le nouveau point
+  flightPath.values.push({ x: currentX, y: currentY }); 
 });
 
-// Ajouter un dernier point qui sort de l'écran (ajout de 150px en x)
-flightPath.values.push({ x: currentX + 150, y: currentY + 100 });  // Sortie de l'écran
+flightPath.values.push({ x: currentX + 150, y: currentY + 100 }); 
 
-// Création de l'animation Tween
 const tween = new TimelineLite();
 
 tween.add(
@@ -44,7 +37,6 @@ tween.add(
   })
 );
 
-// Configuration de ScrollMagic Controller
 const controller = new ScrollMagic.Controller();
 const scene = new ScrollMagic.Scene({
   triggerElement: '.animation',
@@ -53,6 +45,7 @@ const scene = new ScrollMagic.Scene({
 })
 
 .setTween(tween)
-// .addIndicators() // Ligne supprimée pour éviter d'afficher les indicateurs de débogage
 .setPin('.animation')
 .addTo(controller);
+
+// Made by Tom Limon

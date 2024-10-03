@@ -30,6 +30,6 @@ p {
     text-align: justify;
     line-height: 1.6;
 }
-html {
+body, html {
     overflow: hidden;
 }

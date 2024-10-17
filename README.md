@@ -76,7 +76,7 @@ Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la S
   - Page à propos
 
 ## Contributeurs
-thomaslorenzini = thomaslrnz (petit probl_me à la création du repo)
+thomaslorenzini = thomaslrnz (petit problème à la création du repo)
 (les 60 000 lignes que vous pouvez constater lors du premier commit viennent du fait qu'on avait beaucoup de svg dans les premières versions du site)
 
 ![capture d'écran de sur la contribution des membres du projet](./img_project/img6.png)

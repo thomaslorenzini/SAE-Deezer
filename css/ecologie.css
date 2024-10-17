@@ -1,0 +1,101 @@
+*{
+    color: white;
+}
+
+h1{
+    font-family: Titre, sans-serif;
+    font-size: 44pt;
+}
+
+p{
+    font-family: Contenu, sans-serif;
+    font-size: 22pt;
+}
+
+@font-face {
+    font-family: Contenu;
+    src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+    font-family: Titre;
+    src: url(../fonts/Protest_Strike/ProtestStrike-Regular.ttf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(117deg, #1d1e2c 10%, #9c528b 40.45%, #1d1e2c 90%);
+}
+
+.content{
+    display: flex;
+    width: 80%;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    gap: 3%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.image>img{
+    width: auto;
+    max-height: 500px;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.nomfooter {
+    position: absolute;
+    font-family: "Deezer-Major";
+    color: #ffffff;
+    margin-left: 20px;
+    top: 35%;
+    font-size: 20px;
+}
+
+.social-media {
+    position: absolute;
+    right: 2%;
+    top: 35%;
+}
+
+.social-media a {
+    margin: 0 10px;
+
+}
+.social-media img {
+    width: 30px; 
+    height: auto;
+}
+
+.social-media:hover {
+    transform: scale(1.1);
+}
+
+.coeur {
+    position: absolute;
+    right: 6%;
+    height: 40px;
+    top: 29%;
+}
+
+
+@font-face {
+    font-family: 'Deezer-Major'; 
+    src: url('../fonts/Deezer/Deezer-Major.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+

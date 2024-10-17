@@ -193,8 +193,19 @@ p {
     font-style: normal;  
 }
 
-
 footer {
-    background-color: black; color: white; text-align: center; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; position: absolute; bottom: 0; width: 100%;
-    position: fixed;
-} 
+    top: 320%;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}
+
+.nomfooter {
+    position: absolute;
+    font-family: "Deezer-Major";
+    color: #ffffff;
+    margin-left: 20px;
+    top: 35%;
+    font-size: 20px;
+}

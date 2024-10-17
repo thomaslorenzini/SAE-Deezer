@@ -1,4 +1,3 @@
-
 body {
     background: linear-gradient(117deg, #1d1e2c 10%, #9c528b 40.45%, #1d1e2c 90%);
     background-attachment: fixed;
@@ -14,8 +13,9 @@ body {
 }
 
 .content {
-    width: 80%;
+    width: 55%;
     margin: 0 auto;
+    margin-left: -150px;
     padding-top: 25px;
 }
 section {
@@ -41,15 +41,21 @@ p {
     line-height: 1.6;
 }
 
+.image {
+    width: 500px;
+    border-radius: 20px;
+}
 
- 
+.image2 {
+    width: 500px;
+    border-radius: 20px;
+}
 
 footer {
-    top: 150%;
     background-color: black;
     height: 100px;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .nomfooter {
@@ -87,13 +93,29 @@ footer {
     top: 29%;
 }
 
+.container-section-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
 
 
 
 @font-face {
     font-family: 'Deezer-Major'; 
-    src: url('../TTF/Deezer-Major.ttf') format('truetype'); 
+    src: url('../fonts/Deezer/Deezer-Major.ttf') format('truetype'); 
     font-weight: normal; 
     font-style: normal;  
 }
+
+/* Fait par Ethan Koperecz */
 

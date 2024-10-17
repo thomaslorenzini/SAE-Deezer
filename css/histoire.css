@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Deezer-Major;
+    src: url(../fonts/Deezer/Deezer-Major.ttf);
+}
+
+@font-face {
+    font-family: Contenu;
+    src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Titre;
+    src: url(../fonts/Protest_Strike/ProtestStrike-Regular.ttf);
+}
+
+body {
+    background: linear-gradient(117deg, #1d1e2c 10%, #9c528b 40.45%, #1d1e2c 90%);
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-fluid {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    backdrop-filter: blur(10px); 
+}
+
+footer {
+    top: 230%;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}
+
+.nomfooter {
+    position: absolute;
+    font-family: "Deezer-Major";
+    color: #ffffff;
+    margin-left: 20px;
+    top: 35%;
+    font-size: 20px;
+}
+
+.social-media {
+    position: absolute;
+    right: 2%;
+    top: 35%;
+}
+
+.social-media a {
+    margin: 0 10px;
+
+}
+.social-media img {
+    width: 30px; 
+    height: auto;
+}
+
+.social-media:hover {
+    transform: scale(1.1);
+}
+
+.coeur {
+    position: absolute;
+    right: 6%;
+    height: 40px;
+    top: 29%;
+}
+
+.coeur:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    color: white;
+    font-size: 120px;
+    font-family: "Deezer-Major", sans-serif;
+    position: absolute;
+    top: 9%;
+    left: 34%;
+    text-shadow: #1d1e2c 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1500px;
+}
+
+.bubble {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Contenu";
+    font-size: 16px;
+    width: 30%;
+
+    margin: 20px 0;
+}
+
+.bubble h2 {
+    font-family: "Titre";
+    color: #333;
+}
+
+/* Alternance des bulles */
+.bubble-right {
+    align-self: flex-end;
+    margin-right: 150px;
+    box-shadow: 10px 5px 5px #1d1e2c;
+
+}
+
+.bubble-left {
+    align-self: flex-start;
+    margin-left: 150px;
+    box-shadow: -10px 5px 5px #1d1e2c;
+}
+
+.timeline-line {
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Cercles pour chaque bulle */
+.timeline-circle1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-circle2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-circle3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-circle4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-circle5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-circle6 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-circle7 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .bubble {
+        max-width: 90%;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .bubble-right, .bubble-left {
+        align-self: center;
+    }
+
+    .timeline-line {
+        left: 50%;
+    }
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    margin-top: 280px;
+}

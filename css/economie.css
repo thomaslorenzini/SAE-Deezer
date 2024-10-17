@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(117deg, #1d1e2c 10%, #9c528b 40.45%, #1d1e2c 90%);
+}
+
 .scroll-line {
     position: fixed;
     top: 0;

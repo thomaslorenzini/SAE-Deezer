@@ -1,3 +1,9 @@
+body {
+    background: linear-gradient(117deg, #1d1e2c 10%, #9c528b 40.45%, #1d1e2c 90%);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
 .scroll-line {
     position: fixed;
     top: 0;

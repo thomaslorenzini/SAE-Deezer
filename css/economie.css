@@ -1,28 +1,18 @@
+
 body {
     background: linear-gradient(117deg, #1d1e2c 10%, #9c528b 40.45%, #1d1e2c 90%);
-    height: 100vh;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .container-fluid {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    margin-top: 3%; 
-    width: calc(100% - 40px); 
-    padding: 0 20px; 
-}
-
-.scroll-line {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 0;
-    height: 5px;
-    background-color: lightskyblue;
-    z-index: 10;
+    width: 100%;
+    height: 100px;
+    backdrop-filter: blur(10px); 
 }
+
 .content {
     width: 80%;
     margin: 0 auto;
@@ -53,6 +43,49 @@ p {
 
 
  
+
+footer {
+    top: 150%;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}
+
+.nomfooter {
+    position: absolute;
+    font-family: "Deezer-Major";
+    color: #ffffff;
+    margin-left: 20px;
+    top: 35%;
+    font-size: 20px;
+}
+
+.social-media {
+    position: absolute;
+    right: 2%;
+    top: 35%;
+}
+
+.social-media a {
+    margin: 0 10px;
+
+}
+.social-media img {
+    width: 30px; 
+    height: auto;
+}
+
+.social-media:hover {
+    transform: scale(1.1);
+}
+
+.coeur {
+    position: absolute;
+    right: 6%;
+    height: 40px;
+    top: 29%;
+}
 
 
 

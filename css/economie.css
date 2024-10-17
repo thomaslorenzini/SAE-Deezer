@@ -18,6 +18,9 @@ section {
     background-color: lightgrey;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
+    .container {
+        justify-content: flex-start
+    }
 }
 h2 {
     margin-left: 50px;
